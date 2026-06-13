@@ -114,7 +114,10 @@ const ContactCard: React.FC<{ contact: Contact }> = ({ contact }) => {
         {contact.phoneNumber && (
            <div className="flex items-center text-xs font-medium">
              <Phone className="w-3.5 h-3.5 mr-2 text-zinc-400 dark:text-zinc-500 flex-shrink-0" />
-             <a href={`tel:${contact.phoneNumber}`} className="text-[#39FF14] hover:underline transition-colors drop-shadow-[0_0_8px_rgba(57,255,20,0.5)]">
+             <a 
+               href={`tel:${contact.phoneNumber}`} 
+               className="text-blue-800 dark:text-[#39FF14] hover:underline transition-colors dark:drop-shadow-[0_0_8px_rgba(57,255,20,0.5)]"
+             >
                {contact.phoneNumber}
              </a>
            </div>
