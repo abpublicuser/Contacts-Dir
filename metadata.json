@@ -1,0 +1,6 @@
+{
+  "name": "Contacts Directory",
+  "description": "A dark-mode ready contacts directory powered by Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
