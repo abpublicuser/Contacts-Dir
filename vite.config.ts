@@ -32,6 +32,9 @@ export default defineConfig(() => {
               type: 'image/png'
             }
           ]
+        },
+        devOptions: {
+          enabled: true
         }
       })
     ],

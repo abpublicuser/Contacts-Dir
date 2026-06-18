@@ -42,7 +42,7 @@ export function ContactsDirectory({ dataRows, isLoading }: ContactsDirectoryProp
       <header className="flex-none pt-8 pb-6 px-6 sm:px-8 border-b border-blue-900 dark:border-zinc-800 bg-blue-950/80 dark:bg-zinc-950/80 backdrop-blur-md sticky top-0 z-10">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="flex flex-col sm:flex-row items-center w-full sm:w-auto">
-            <img src="/logo.png" alt="Aarudhra Enclave Contacts Directory Logo" className="w-[280px] max-w-full h-auto object-contain drop-shadow-lg" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling?.classList.remove('hidden'); }} />
+            <img src="/logo.png?v=2" alt="Aarudhra Enclave Contacts Directory Logo" className="w-[280px] max-w-full h-auto object-contain drop-shadow-lg" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling?.classList.remove('hidden'); }} />
             <h1 className="text-2xl font-bold tracking-tight text-white dark:text-zinc-50 hidden">Contacts Directory</h1>
           </div>
 
@@ -79,6 +79,10 @@ export function ContactsDirectory({ dataRows, isLoading }: ContactsDirectoryProp
             ))}
           </div>
         )}
+
+        <div className="text-center pb-4 pt-2">
+          <p className="text-xs text-blue-300 dark:text-zinc-500">Version 1.0</p>
+        </div>
       </main>
     </div>
   );
