@@ -34,8 +34,8 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans">
-      <div className="h-screen w-full relative">
+    <div className="min-h-[100dvh] bg-slate-100 dark:bg-zinc-950 flex justify-center sm:py-8 font-sans">
+      <div className="h-[100dvh] sm:h-[844px] w-full sm:max-w-[390px] relative bg-blue-950 dark:bg-zinc-950 sm:rounded-[3rem] sm:shadow-2xl sm:border-[8px] sm:border-slate-800 dark:sm:border-zinc-900 overflow-hidden shrink-0">
         {error && (
           <div className="absolute top-4 left-1/2 -translate-x-1/2 z-50 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg text-sm flex items-center gap-3">
              <span>{error}</span>
