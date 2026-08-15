@@ -81,7 +81,7 @@ export function ContactsDirectory({ dataRows, isLoading }: ContactsDirectoryProp
         )}
 
         <div className="text-center pb-4 pt-2">
-          <p className="text-xs text-blue-300 dark:text-zinc-500">Version 1.0</p>
+          <p className="text-xs text-blue-400 dark:text-zinc-500 tracking-wider">Version 1.0</p>
         </div>
       </main>
     </div>
